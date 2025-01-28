@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculadora do Dev</title>
+  </head>
+  <body>
+    
+      <input type="text" id="visor" disabled />
+      <div id="container">
+        <div id="coluna1">
+          <button class="teclaOperacao" onclick="operadores('%')">%</button>
+          <button class="tecla" onclick="adicionar('7')">7</button>
+          <button class="tecla" onclick="adicionar('4')">4</button>
+          <button class="tecla" onclick="adicionar('1')">1</button>
+          <button class="tecla" onclick="adicionar('0')">0</button>
+        </div>
+
+        <div id="coluna2">
+          <button class="teclaOperacao" onclick="operadores('/')">/</button>
+          <button class="tecla" onclick="adicionar('8')">8</button>
+          <button class="tecla" onclick="adicionar('5')">5</button>
+          <button class="tecla" onclick="adicionar('2')">2</button>
+          <button class="tecla" onclick="adicionar(',')">,</button>
+        </div>
+
+        <div id="coluna3">
+          <button class="teclaOperacao" onclick="operadores('*')">*</button>
+          <button class="tecla" onclick="adicionar('9')">9</button>
+          <button class="tecla" onclick="adicionar('6')">6</button>
+          <button class="tecla" onclick="adicionar('3')">3</button>
+          <button class="teclaOperacao" onclick="limparCampo()">C</button>
+        </div>
+
+        <div id="coluna4">
+          <button class="teclaOperacao" onclick="operadores('+')">+</button>
+          <button class="teclaOperacao" onclick="operadores('-')">-</button>
+
+          <button class="teclaOperacaoIgual" onclick="calcular(' = ')">
+            =
+          </button>
+        </div>
+      </div>
+ 
+    <script src="index.js" defer></script>
+  </body>
+</html>
