@@ -1,0 +1,103 @@
+body {
+    background-color: #dfcaca;
+}
+
+
+#container {
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+    margin:  0 auto;
+    margin-top: 10px;
+    
+}
+
+
+#fundoBranco {
+    border-radius: 8px;
+    width: 600px;
+    height: 215px;
+    margin: 0 auto;
+    background-color: rgb(230, 229, 238);
+    margin-top: 10px;
+    box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.75);
+    
+
+}
+#visor {
+
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+    width: 400px;
+    padding: 15px;
+    display: block;
+    margin-top: 150px;
+    border-radius: 8px;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.uniMedida {
+    margin: 1.4px;
+    margin-top: 30px;
+    width: 4.2em;
+    height: 2rem;
+    border-radius: 8px;
+    color: white;
+    background-color: #1c52e6;
+    border: 0.5px solid #070707;
+    cursor: pointer;
+    
+
+}  
+
+.numeros {
+    margin: 1.4px;
+    margin-top: 5px;
+    width: 4.2em;
+    height: 2rem;
+    border-radius: 8px;
+    border: 0.5px solid #070707;
+    background-color: #eef0f3;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.uniMedida:hover, .numeros:hover {
+    background-color: #1d1c1c67;
+}
+
+#limpar, #calcular {
+    margin: 1.4px;
+    margin-top: 5px;
+    width: 4.2em;
+    height: 2rem;
+    border-radius: 8px;
+    border: 0.5px solid #070707;
+    background-color: #0ee64f;
+    color: white;
+    cursor: pointer;
+}
+
+#limpar {
+    width: 8rem;
+    background-color: #e60e0e;
+}
+
+
+#calcular {
+    width: 10.7rem;
+}
+
+#limpar:hover, #calcular:hover {
+    background-color: #1d1c1c67;
+}
+
+#calcular:hover {
+    background-color: #1d1c1c67;
+} 
