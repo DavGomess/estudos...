@@ -1,0 +1,40 @@
+.container{
+    max-width: 1000px;
+    height: 1000px;
+    margin: auto;
+    background-color: rgb(164, 199, 230);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+input{
+    width: 100%;
+    display: block;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-size: 30px;
+  
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+#Botaocalcular{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(57, 165, 82);
+    cursor: pointer;
+
+}
+
+#resultado{
+    font-size:50px
+    
+}
