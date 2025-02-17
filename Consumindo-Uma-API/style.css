@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e0e6ee;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.formulario {
+  background-color: #004758;
+  padding: 10px;
+  width: 500px;
+  margin-left: 30px;
+  margin-top: 40px;
+  border-radius: 8px;
+  box-shadow: inset;
+  -webkit-box-shadow: 7px 6px 5px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 6px 5px -4px rgba(0, 0, 0, 0.75);
+}
+
+#form > label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#form > input {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #0000002f;
+  background-color: #eff3f3;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-left: -6px;
+  font-size: large;
+  position: relative;
+  box-shadow: inset;
+  -webkit-box-shadow: 7px 6px 5px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 6px 5px -4px rgba(0, 0, 0, 0.75);
+}
+
+#h1 {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #26282b;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+#h2 {
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  display: inline;
+}
+
+.transacao {
+  border: 1px solid black;
+  margin-left: 30px;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #001817;
+  color: #fafafa;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 130px;
+  height: 45px;
+  transition: 0.3s;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #3b82f6;
+  box-shadow: 0 0 0 5px #3b83f65f;
+  color: #fff;
+}
+
+.editar, .salvar, .excluir {
+    width: 109px;
+    font-size: 16px;
+}
+
+#fazerTransacao {
+    width: 160px;
+}
+
+#conteudoDireta {
+  width: 50%;
+  float: right;
+  padding: 20px;
+  margin-top: -365px;
+  font-weight: 600;
+}
+
+#visorSaldo {
+  background-color: #004758;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: block;
+  color: #fff;
+  text-align: end;
+  box-shadow: inset;
+  -webkit-box-shadow: 7px 6px 5px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 6px 5px -4px rgba(0, 0, 0, 0.75);
+}
+
+#visor {
+  border: none;
+  margin-top: 5px;
+  background-color: #eff3f3;
+  width: 100%;
+  height: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  text-align: end;
+  padding-right: 7px;
+  font-size: 25px;
+}
+
+#listaTransacao {
+  list-style: none;
+  padding: 0;
+  max-height: 300px; /* Defina a altura máxima que a lista pode ter */
+  overflow-y: auto; /* Barra de rolagem aparece quando o conteúdo excede a altura */
+  padding: 10px;
+
+  list-style-type: none; /* Remove os marcadores de lista */
+}
+
+#listaTransacao li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: inset;
+  -webkit-box-shadow: 7px 6px 5px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 6px 5px -4px rgba(0, 0, 0, 0.75);
+}
