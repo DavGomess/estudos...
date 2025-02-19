@@ -1,0 +1,30 @@
+label {
+    font-size: 20px;
+
+}
+
+input {
+    display: block;
+    margin-bottom: 30px;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+#nome, #email, #senha {
+    display: inline-block;
+}
+
+button {
+    padding: 9px 10px;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.808);
+    color: white;
+}
+
+button:hover {
+    background-color: rgba(21, 5, 250, 0.514);
+}
