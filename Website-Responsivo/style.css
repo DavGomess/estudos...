@@ -1,0 +1,487 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --Fundo-branco: #ffffff;
+  --Fundo-claro: #e0e0e0;
+  --Cor-principal: #6c63ff;
+  --Fundo-escuro: #2c2c2e;
+  --Fundo-preto: #070707;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    background-image: url(src/image/turma.webp);
+    height: auto;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--Fundo-branco);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    display: flex;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3.4rem;
+  }
+
+  .hero-content > p {
+    font-size: 2.5rem;
+    display: inline-block;
+  }
+
+  .btn {
+    background-color: var(--Cor-principal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    font-size: 2rem;
+    color: var(--Fundo-branco);
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    border-radius: 0.7rem;
+    margin-top: 4rem;
+  }
+
+
+  .btn:hover {
+    cursor: pointer;
+    background-color: #808080;
+  }
+
+
+  .speakers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    padding: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .speakers > h2 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
+
+  .speakers-grid {
+    display: grid;
+    gap: 2rem;
+    width: 90%;
+  }
+
+  .speaker-card {
+  
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.75);
+    font-size: 2rem;
+  }
+
+  .speaker-card > img {
+    border-radius: 100%;
+
+    margin-top: 2.5rem;
+    width: 250px;
+    height: auto;
+  }
+
+  .speaker-card > p {
+    padding: 1.5rem;
+  }
+
+  .schedule {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 10rem;
+  }
+  
+
+  .schedule-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+  }
+
+  .schedule-item {
+  
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.75);
+    padding: 2rem;
+    font-size: 1.75rem;
+    text-align: start;
+  
+  }
+
+  .newsletter-grid {
+    text-align: center;
+    border: none;
+  
+  }
+
+  .newsletter-image {
+    padding-top: 10rem;
+    text-align: center;
+    
+  }
+
+  .newsletter-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    font-size: 1.75rem;
+    
+  }
+
+  .newsletter-image > img {
+    width: 500px;
+    height: auto;
+  }
+
+  .newsletter-text > h2 {
+    font-size: 3.75rem;
+   
+  }
+
+  .newsletter-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .form-group {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+   
+  }
+
+  #name,
+  #email {
+    padding: 1rem;
+    border-radius: 0.75rem;
+    font-size: 1.25rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5rem;
+  }
+
+  .footer > p {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    
+
+  }
+
+   @media screen and (prefers-color-scheme: light) {
+    .speakers {
+      background-color: var(--Fundo-claro);
+      color: var(--Fundo-preto);
+    }
+    .speaker-card {
+      background-color: var(--Fundo-branco);
+    }
+    .schedule {
+      background-color: var(--Fundo-claro);
+      color: var(--Fundo-preto);
+    }
+    .schedule-item {
+      background-color: var(--Fundo-branco);
+    }
+    .newsletter-grid {
+      background-color: var(--Fundo-claro);
+    }
+    .newsletter-image {
+      background-color: var(--Fundo-claro);
+    }
+    .footer {
+      background-color: var(--Fundo-claro);
+      color: var(--Fundo-preto);
+    }
+
+    .newsletter {
+      color: var(--Fundo-preto);
+    }
+  } 
+
+   @media screen and (prefers-color-scheme: dark) {
+    .speakers {
+      background-color: var(--Fundo-escuro);
+      color: var(--Fundo-branco);
+    }
+    .speaker-card {
+      background-color: var(--Fundo-preto);
+    }
+    .schedule {
+      background-color: var(--Fundo-escuro);
+      color: var(--Fundo-branco);
+    }
+    .schedule-item {
+      background-color: var(--Fundo-preto);
+    }
+    .newsletter-grid {
+      background-color: var(--Fundo-escuro);
+    }
+    .newsletter-image {
+      background-color: var(--Fundo-escuro);
+    }
+    .footer {
+      background-color: var(--Fundo-escuro);
+      color: var(--Fundo-branco);
+    }
+
+    .newsletter {
+      color: var(--Fundo-branco);
+    }
+  } 
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+  .hero {
+    background-image: url(src/image/turma.webp);
+    height: 121vh;
+
+    background-size: cover;
+    background-position: bottom;
+    color: var(--Fundo-branco);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+  }
+
+  .hero-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 2.1rem;
+  }
+
+  .hero-content > p {
+    font-size: 1.2rem;
+    margin: 2rem;
+  }
+
+  .btn {
+    text-decoration: none;
+    color: var(--Fundo-branco);
+    background-color: var(--Cor-principal);
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.75rem;
+  }
+
+  .btn:hover {
+    cursor: pointer;
+    background-color: #808080;
+  }
+
+  .speakers {
+    text-align: center;
+    background-color: var(--Fundo-claro);
+    padding: 3rem;
+    font-size: 1.5rem;
+  }
+
+  .speakers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin: 3rem;
+  }
+
+  .speaker-card {
+    background-color: var(--Fundo-branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 1.5rem;
+    padding: 2rem;
+  }
+
+  .speaker-card > img {
+    border-radius: 100px;
+    width: 13rem;
+    height: auto;
+  }
+
+  .schedule {
+    background-color: var(--Fundo-claro);
+    text-align: center;
+    font-size: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .schedule-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+    width: 96vw;
+    gap: 1.5rem;
+    padding: 4rem;
+  }
+
+  .schedule-item {
+    border-radius: 1.5rem;
+    padding: 2rem;
+    text-align: start;
+    font-size: 1.5rem;
+    line-height: 2;
+    background-color: var(--Fundo-branco);
+  }
+
+  .newsletter {
+    background-color: var(--Fundo-claro);
+  }
+
+  .newsletter-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 5rem;
+   
+  }
+
+  .newsletter-image {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .newsletter-text {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 1rem 1rem 1rem 0rem;
+    gap: 1rem;
+  }
+
+  #name, #email {
+    padding: 1rem;
+    border-radius: 0.7rem;
+    font-size: 1.2rem;
+  }
+
+  .footer {
+    background-color: var(--Fundo-claro);
+    padding: 5rem;
+    text-align: center;
+  }
+
+  .footer > p {
+    padding: 4rem;
+    font-size: 1.25rem;
+  }
+
+   @media (prefers-color-scheme: light) {
+    .speakers {
+      background-color: var(--Fundo-claro);
+      color: var(--Fundo-preto);
+    }
+    .speaker-card {
+      background-color: var(--Fundo-branco);
+    }
+    .schedule {
+      background-color: var(--Fundo-claro);
+      color: var(--Fundo-preto);
+    }
+    .schedule-item {
+      background-color: var(--Fundo-branco);
+    }
+    .newsletter-grid {
+      background-color: var(--Fundo-claro);
+    }
+    .newsletter-image {
+      background-color: var(--Fundo-claro);
+    }
+    .footer {
+      background-color: var(--Fundo-claro);
+      color: var(--Fundo-preto);
+    }
+
+    .newsletter {
+      color: var(--Fundo-preto);
+    }
+  } 
+
+ 
+}
+
+@media (prefers-color-scheme: dark) {
+  .speakers {
+    background-color: var(--Fundo-escuro);
+    color: var(--Fundo-branco);
+  }
+  .speaker-card {
+    background-color: var(--Fundo-preto);
+  }
+  .schedule {
+    background-color: var(--Fundo-escuro);
+    color: var(--Fundo-branco);
+  }
+  .schedule-item {
+    background-color: var(--Fundo-preto);
+  }
+  .newsletter-grid {
+    background-color: var(--Fundo-escuro);
+  }
+  .newsletter-image {
+    background-color: var(--Fundo-escuro);
+  }
+  .footer {
+    background-color: var(--Fundo-escuro);
+    color: var(--Fundo-branco);
+  }
+
+  .newsletter {
+    color: var(--Fundo-branco);
+  }
+}
