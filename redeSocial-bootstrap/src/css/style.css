@@ -1,0 +1,160 @@
+
+
+body {
+  
+    background-color: var(--bs-body-bg);
+} 
+
+.light-theme {
+    --bs-body-bg: #e9ecef;
+    --bs-color-secondary: #f7f8fa;  /* Cor do bg-body-secondary */
+    --bs-body-color: #1e2328;
+    --color-Primary:#36cbf1;
+}
+
+.dark-theme {
+    --bs-body-bg: #1e2328;
+    --bs-color-secondary: #343a40;
+    --bs-body-color: #ffffff;
+    --bs-color-input: #9ea1a7;
+    --color-Primary:#36cbf1;
+}
+
+.input {
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+}
+
+ .elementsChangeColor {
+    background-color: var(--bs-color-secondary);
+    color: var(--bs-body-color);
+}
+
+/* Garante que o input tenha a cor correta no tema claro */
+.light-theme .form-control {
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+}
+
+/* Garante que o input tenha a cor correta no tema escuro */
+.dark-theme .form-control {
+    background-color: var(--bs-body-bg) !important; /* Fundo do input no tema escuro */
+    color: #ffffff !important; /* Texto branco */
+}
+
+/* Garante que o placeholder também mude de cor */
+.dark-theme .form-control::placeholder {
+    color: var( --bs-color-input) !important; /* Cinza mais claro */
+}
+
+.dark-theme .dropdown-item:hover {
+    background-color: var(--bs-color-secondary);
+}
+
+.light-theme .dropdown-item:hover {
+    background-color: var(--bs-color-secondary);
+}
+ 
+
+
+.colorThemeBody {
+    background-color: var(--color-theme-body);
+}
+
+.colorPrimary {
+    background-color: var(--color-Primary);
+}
+
+.colorThemeLight {
+    background-color: var(--color-theme-light);
+}
+
+.colorThemeDark {
+    background-color: var(--color-theme-dark);
+}
+
+.sizeInput {
+    border-radius: 0.75rem;
+}
+
+.sizeCard {
+    border-radius: 1rem;
+}
+.sizemodais {
+    border-radius: 1rem;
+}
+.sizebutton {
+    border-radius: 50%;
+    width: 4rem;
+    height: 2.5rem;
+}
+
+.standardSpace {
+    margin: 1.25rem;
+}
+
+.imgProfile {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: right;
+
+}
+
+.heightInput {
+    height: 3rem;
+
+}
+
+.spaceButton {
+    margin-top: -0.75rem;
+} 
+
+.heightHr {
+    margin-top: -9rem;
+}
+
+.postTwoColumn {
+    margin-top: -17rem;
+    height: 13.5rem;
+}
+
+.postThreeColumn {
+    margin-top: 5rem;
+    height: 13.5rem;
+  
+
+}
+
+.spaceLeft {
+    margin-right: 4rem;
+}
+
+.buttonInteraction {
+    width: 100%;
+}
+
+.buttonInteractionHover:hover {
+    background-color: #80808039;
+   
+}
+
+.imgCarrosel {
+    height: 10rem;
+    width: auto;
+    object-fit: cover;
+    object-position: top;
+}
+
+.footer {
+    position: fixed;  /* Fixa na parte inferior */
+    bottom: 0;        /* Alinha no fundo */
+    left: 0;          /* Garante que comece da esquerda */
+    width: 100%;      /* Ocupa toda a largura */
+    height: 60px;     /* Altura do rodapé */
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+  }
+  
