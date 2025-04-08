@@ -1,0 +1,54 @@
+.container {
+   width: 100vw;
+   height: 100vh;
+   background-color: #b8c4ce;
+   display: grid;
+   place-content: center;
+   min-height: 100vh;
+}
+
+.card {
+   width: 70rem;
+   height: 25rem;
+   background-color: #2e2c2c;
+   border-radius: 1.5rem;
+   display: grid;
+   place-content: center;
+   gap: 2rem;
+   box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.75);
+}
+
+.title {
+   color: #e2dada;
+   font-size: 2rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button, input {
+   font-size: 1.2rem;
+   padding: 0.75rem 1.25rem;
+   border-radius: 0.5rem;
+   background-color: #131212;
+   color: #e2dada;
+   cursor: pointer;
+}
+
+label {
+   color: #fff;
+   padding-right: 2rem;
+   font-size: 1.5rem
+}
+
+.button:hover {
+   background-color: #1312127a;
+}
+
+.password {
+   font-size: 1.5rem;
+   text-align: center;
+   color: #e2dada;
+}
