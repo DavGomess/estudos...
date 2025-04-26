@@ -1,0 +1,34 @@
+.cardEspaconaves {
+    display: flex;  
+    justify-content: center;
+    
+   
+}
+
+.cardEspaconaves h1 {
+    display: flex;
+    justify-content: start
+    ;
+}
+
+.containerTabelaEspaconaves {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+
+
+.tabelaEspaconaves {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 15rem 15rem 15rem;
+    gap: 1rem;
+}
+
+.tabelaEspaconaves li {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+   
+}
