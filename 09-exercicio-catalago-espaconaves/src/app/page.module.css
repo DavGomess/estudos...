@@ -1,0 +1,10 @@
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7rem;
+}
+
+#botaoVerTodas {
+  text-align: center;
+}
