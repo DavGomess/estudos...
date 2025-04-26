@@ -1,0 +1,38 @@
+.cardInfoEspaconave {
+  display: flex;
+  justify-content: center;
+}
+.containerInfoEspaconave {
+  display: flex;
+  flex-direction: column;
+  width: 44rem;
+}
+
+.imageEspaconave {
+  display: flex;
+  place-content: center;
+}
+
+.descricoesEspaconave {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 2rem;
+  height: 15.5rem;
+}
+
+.containerButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonsNavegacao {
+  display: flex;
+  justify-content: end;
+  gap: 0.5rem;
+  width: 25rem;
+}
+
+.buttonsNavegacao button {
+  width: 49%;
+}

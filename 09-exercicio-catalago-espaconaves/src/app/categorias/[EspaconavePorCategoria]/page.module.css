@@ -1,0 +1,33 @@
+.cardItensCategoria {
+    display: flex;  
+    justify-content: center;
+    
+   
+}
+
+.cardItensCategoria h1 {
+    display: flex;
+    justify-content: start;
+}
+
+.containerTabelaItensCategoria {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+
+
+.tabelaDeItensCategorias {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 15rem 15rem 15rem;
+    gap: 1rem;
+}
+
+.tabelaDeItensCategorias li {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+   
+}
