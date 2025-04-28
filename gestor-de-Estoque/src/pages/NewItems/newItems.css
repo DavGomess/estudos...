@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #fff;
+  background-color: #292727;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+
+.linkTo {
+  text-decoration: none;
+  color: #fff;
+  list-style: none;
+}
+.linkTo:hover {
+  color:  #3973df;
+
+}
+
+
+.linkTo-Aba {
+  text-decoration: none;
+  color: inherit;
+  padding-bottom: 1rem;
+  list-style: none;
+ 
+}
+
+.linkTo-Aba.active {
+  border-bottom: 1.2px solid #fff;
+  color:  #3973df;
+} 
+
+#header {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+#header ul {
+  display: flex;
+  gap: 1rem;
+  padding-right: 1rem;
+}
+
+#header ul > li {
+  display: flex;
+  text-decoration: none;
+}
+
+h1 {
+  padding: 0.25rem 2rem;
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+.hr-line {
+  margin-top: -1rem;
+
+  border-bottom: 1px solid #ffffffc2;
+  margin-left: 2.5rem;
+  margin-right: 2rem;
+}
+
+
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5rem;
+  gap: 2rem;
+}
+
+.input-container  label {
+  display: block;
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+}
+
+select {
+  cursor: pointer;
+
+}
+
+.input-container  input, select {
+  background-color: #1b1a1aee;
+  border: none;
+  border-radius: 0.50rem;
+  color: #fff;
+  height: 3rem;
+  width: 19rem;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.textArea-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  
+}
+
+.textArea-container label {
+  display: block;
+  padding-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.textArea-container textarea {
+  width: 82rem;
+  height: 12rem;
+  background-color: #1b1a1aee;
+  border: none;
+  border-radius: 0.50rem;
+  color: #fff;
+  font-size: 1.5rem;
+  padding-left:  0.5rem;
+  padding-top: 0.5rem;
+}
+
+
+#buttonWrapper {
+  width: 82rem;
+  margin-top: 1rem;
+}
+
+
+#buttonWrapper button {
+ background-color: #3973df;
+ width: 6.5rem;
+ height: 3.5rem;
+ font-size: 1.5rem;
+ border: none;
+}
+
+#buttonWrapper button:hover {
+  background-color: #808080;
+  width: 7rem;
+  height: 4rem;
+  transition: 0.01s;
+ }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 2rem;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+;
