@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #fff;
+  background-color: #292727;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+
+.linkTo {
+  text-decoration: none;
+  color: #fff;
+  list-style: none;
+}
+.linkTo:hover {
+  color:  #3973df;
+
+}
+
+
+.linkTo-Aba {
+  text-decoration: none;
+  color: inherit;
+  padding-bottom: 1rem;
+  list-style: none;
+ 
+}
+
+.linkTo-Aba.active {
+  border-bottom: 1.2px solid #fff;
+  color:  #3973df;
+} 
+
+#header {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+#header ul {
+  display: flex;
+  gap: 1rem;
+  padding-right: 1rem;
+}
+
+#header ul > li {
+  display: flex;
+  text-decoration: none;
+}
+
+h1 {
+  padding: 0.25rem 2rem;
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+#itemsNavigation {
+  display: flex;
+  margin: 1rem 0rem 1rem 2.5rem;
+  gap: 2rem;
+  position: relative;
+  align-items: flex-end;
+  height: 3rem;
+}
+
+#itemsNavigation > p {
+  cursor: pointer;
+  padding-bottom: 0.5rem;
+
+}
+
+
+#itemsNavigation > p:hover {
+ border-bottom: 1.2px solid #fff;
+
+}
+
+.hr-line {
+  margin-top: -1rem;
+
+  border-bottom: 1px solid #ffffffc2;
+  margin-left: 2.5rem;
+  margin-right: 2rem;
+}
+
+#table-container {
+  /* border: 1px solid red; */
+  padding: 3rem 2rem;
+  align-items: start;
+  max-height: 27rem;
+  overflow-y: auto;
+}
+
+#table-container table {
+  /* border: 1px solid rgb(238, 215, 13); */
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+
+#table-container th {
+  height: 4rem;
+  background-color: #1b1a1aee;
+  text-align: start;
+  padding: 1rem;
+}
+
+th:first-child {
+  width: 35rem;
+}
+
+td {
+  text-align: start;
+  padding: 1rem 1rem;
+  line-height: 1;
+  height: 2rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+  
+}
+
+.viewButton {
+  background-color: #2181ee;
+  border: none;
+  margin: 0;
+  padding: 1.2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.updateButton {
+  border: none;
+  margin: 0;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.deleteButton {
+  border: none;
+  background-color: #f33838ee;
+  margin: 0;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    cursor: pointer;
+}
+
+.viewButton:hover, .updateButton:hover, .deleteButton:hover{
+  background-color: #808080;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 2rem;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+/* position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+background-color: #222;
+color: white;
+text-align: center;
+padding: 1rem; */
