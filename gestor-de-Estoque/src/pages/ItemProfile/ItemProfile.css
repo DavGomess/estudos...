@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #fff;
+  background-color: #292727;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.linkTo {
+  text-decoration: none;
+  color: #fff;
+  list-style: none;
+}
+.linkTo:hover {
+  color: #3973df;
+}
+
+.linkTo-Aba {
+  text-decoration: none;
+  color: inherit;
+  padding-bottom: 1rem;
+  list-style: none;
+}
+
+.linkTo-Aba.active {
+  border-bottom: 1.2px solid #fff;
+  color: #3973df;
+}
+
+
+#header {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+#header ul {
+  display: flex;
+  gap: 1rem;
+  padding-right: 1rem;
+}
+
+#header ul > li {
+  display: flex;
+  text-decoration: none;
+}
+
+h1 {
+  padding: 0.25rem 2rem;
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+.hr-line {
+  margin-top: -1rem;
+  
+  border-bottom: 1px solid #ffffffc2;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.itemDescriptions {
+  display: flex;
+  gap: 2rem;
+  padding-left: 2rem;
+  margin-top: 2rem;
+}
+
+.itemDescription {
+  font-size: 1.3rem;
+  background-color: #1b1a1aee;
+  padding: 1rem 2rem;
+  border-radius: 0.3rem;
+}
+
+.updateItem {
+  padding-left: 2rem;
+  margin-top: 2rem;
+  font-weight: 100;
+  display: flex;
+  align-items: end;
+  gap: 2rem;
+  font-size: 2rem;
+}
+
+
+.updateButton {
+  border: none;
+  padding: 1.2rem 3.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+ 
+}
+
+
+.deleteButton {
+  border: none;
+  background-color: #f33838ee;
+  padding: 1.2rem 3rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.descriptionItem {
+  padding: 2rem 2rem;
+  font-size: 1.5rem;
+}
+
+.dataItem {
+  padding-left: 2rem;
+  display: flex;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 2rem;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
