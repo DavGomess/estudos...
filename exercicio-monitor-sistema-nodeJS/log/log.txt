@@ -1,0 +1,40 @@
+DETALHES DO SISTEMA | Sistema Operacional: Windows | Arquitetura: x64 | Modelo do Processador: 12th Gen Intel(R) Core(TM) i3-1215U | Tempo de Atividade do Sistema: 0:2:5:20 | Uso de Memória RAM: 3.43 GB / 3.73 GB (92 %)
+---
+DETALHES DO SISTEMA | Sistema Operacional: Windows | Arquitetura: x64 | Modelo do Processador: 12th Gen Intel(R) Core(TM) i3-1215U | Tempo de Atividade do Sistema: 0:2:5:21 | Uso de Memória RAM: 3.45 GB / 3.73 GB (92 %)
+---
+DETALHES DO SISTEMA | Sistema Operacional: Windows | Arquitetura: x64 | Modelo do Processador: 12th Gen Intel(R) Core(TM) i3-1215U | Tempo de Atividade do Sistema: 0:2:5:22 | Uso de Memória RAM: 3.43 GB / 3.73 GB (92 %)
+---
+DETALHES DO SISTEMA | Sistema Operacional: Windows | Arquitetura: x64 | Modelo do Processador: 12th Gen Intel(R) Core(TM) i3-1215U | Tempo de Atividade do Sistema: 0:2:5:23 | Uso de Memória RAM: 3.42 GB / 3.73 GB (92 %)
+---
+DETALHES DO SISTEMA | Sistema Operacional: Windows | Arquitetura: x64 | Modelo do Processador: 12th Gen Intel(R) Core(TM) i3-1215U | Tempo de Atividade do Sistema: 0:2:5:24 | Uso de Memória RAM: 3.44 GB / 3.73 GB (92 %)
+---
+DETALHES DO SISTEMA | Sistema Operacional: Windows | Arquitetura: x64 | Modelo do Processador: 12th Gen Intel(R) Core(TM) i3-1215U | Tempo de Atividade do Sistema: 0:2:5:25 | Uso de Memória RAM: 3.47 GB / 3.73 GB (93 %)
+---
+DETALHES DO SISTEMA | Sistema Operacional: Windows | Arquitetura: x64 | Modelo do Processador: 12th Gen Intel(R) Core(TM) i3-1215U | Tempo de Atividade do Sistema: 0:2:5:26 | Uso de Memória RAM: 3.46 GB / 3.73 GB (93 %)
+---
+DETALHES DO SISTEMA | Sistema Operacional: Windows | Arquitetura: x64 | Modelo do Processador: 12th Gen Intel(R) Core(TM) i3-1215U | Tempo de Atividade do Sistema: 0:2:5:27 | Uso de Memória RAM: 3.47 GB / 3.73 GB (93 %)
+---
+DETALHES DO SISTEMA | Sistema Operacional: Windows | Arquitetura: x64 | Modelo do Processador: 12th Gen Intel(R) Core(TM) i3-1215U | Tempo de Atividade do Sistema: 0:2:5:28 | Uso de Memória RAM: 3.47 GB / 3.73 GB (93 %)
+---
+DETALHES DO SISTEMA | Sistema Operacional: Windows | Arquitetura: x64 | Modelo do Processador: 12th Gen Intel(R) Core(TM) i3-1215U | Tempo de Atividade do Sistema: 0:2:5:29 | Uso de Memória RAM: 3.41 GB / 3.73 GB (91 %)
+---
+DETALHES DO SISTEMA | Sistema Operacional: Windows | Arquitetura: x64 | Modelo do Processador: 12th Gen Intel(R) Core(TM) i3-1215U | Tempo de Atividade do Sistema: 0:2:5:30 | Uso de Memória RAM: 3.42 GB / 3.73 GB (92 %)
+---
+DETALHES DO SISTEMA | Sistema Operacional: Windows | Arquitetura: x64 | Modelo do Processador: 12th Gen Intel(R) Core(TM) i3-1215U | Tempo de Atividade do Sistema: 0:2:5:31 | Uso de Memória RAM: 3.42 GB / 3.73 GB (92 %)
+---
+DETALHES DO SISTEMA | Sistema Operacional: Windows | Arquitetura: x64 | Modelo do Processador: 12th Gen Intel(R) Core(TM) i3-1215U | Tempo de Atividade do Sistema: 0:2:5:32 | Uso de Memória RAM: 3.42 GB / 3.73 GB (92 %)
+---
+DETALHES DO SISTEMA | Sistema Operacional: Windows | Arquitetura: x64 | Modelo do Processador: 12th Gen Intel(R) Core(TM) i3-1215U | Tempo de Atividade do Sistema: 0:2:5:33 | Uso de Memória RAM: 3.44 GB / 3.73 GB (92 %)
+---
+DETALHES DO SISTEMA | Sistema Operacional: Windows | Arquitetura: x64 | Modelo do Processador: 12th Gen Intel(R) Core(TM) i3-1215U | Tempo de Atividade do Sistema: 0:2:5:34 | Uso de Memória RAM: 3.45 GB / 3.73 GB (92 %)
+---
+DETALHES DO SISTEMA | Sistema Operacional: Windows | Arquitetura: x64 | Modelo do Processador: 12th Gen Intel(R) Core(TM) i3-1215U | Tempo de Atividade do Sistema: 0:1:8:27 | Uso de Memória RAM: 3.41 GB / 3.73 GB (91 %)
+---
+DETALHES DO SISTEMA | Sistema Operacional: Windows | Arquitetura: x64 | Modelo do Processador: 12th Gen Intel(R) Core(TM) i3-1215U | Tempo de Atividade do Sistema: 0:1:8:28 | Uso de Memória RAM: 3.43 GB / 3.73 GB (92 %)
+---
+DETALHES DO SISTEMA | Sistema Operacional: Windows | Arquitetura: x64 | Modelo do Processador: 12th Gen Intel(R) Core(TM) i3-1215U | Tempo de Atividade do Sistema: 0:1:8:29 | Uso de Memória RAM: 3.40 GB / 3.73 GB (91 %)
+---
+DETALHES DO SISTEMA | Sistema Operacional: Windows | Arquitetura: x64 | Modelo do Processador: 12th Gen Intel(R) Core(TM) i3-1215U | Tempo de Atividade do Sistema: 0:1:8:30 | Uso de Memória RAM: 3.42 GB / 3.73 GB (92 %)
+---
+DETALHES DO SISTEMA | Sistema Operacional: Windows | Arquitetura: x64 | Modelo do Processador: 12th Gen Intel(R) Core(TM) i3-1215U | Tempo de Atividade do Sistema: 0:1:8:31 | Uso de Memória RAM: 3.42 GB / 3.73 GB (92 %)
+---
