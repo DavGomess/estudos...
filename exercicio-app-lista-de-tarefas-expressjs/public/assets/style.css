@@ -1,0 +1,42 @@
+.rounded-start {
+    border-top-left-radius: 0.375rem !important;
+    border-bottom-left-radius: 0.375rem !important;
+}
+
+a.stretched-link {
+    z-index: 1;
+}
+
+form {
+    z-index: 999;
+    position: relative;
+}
+
+button {
+    z-index: 999;
+}
+
+::placeholder {
+    color: rgb(153, 153, 153) !important;
+}
+
+.roundedListTask > li:first-child  {
+    border-top-left-radius: 6px;  
+    border-top-right-radius: 6px;
+}
+
+
+.roundedListTask > li:last-child  {
+    border-bottom-left-radius: 6px;  
+    border-bottom-right-radius: 6px;
+}
+
+.completed {
+    background-color: #198754;
+    color: #fff;
+}
+
+.notCompleted {
+    background-color: #212529;
+    color: #fff;
+}
